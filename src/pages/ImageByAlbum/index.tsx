@@ -37,11 +37,11 @@ const ImageByAlbum = () => {
             alignItems="stretch"
           >
             {Images?.map((img) => (
-              <Grid item key={img.imageId} xs={12} sm={6} md={4} lg={3}>
-                <Box sx={{ display: "flex", justifyContent: "center", height: "100%" }}>
-                  <ImageViewDialog image={img} albumId={albumId} />
-                </Box>
-              </Grid>
+              // <Grid item key={img.imageId} xs={12} sm={6} md={4} lg={3}>
+              <Box sx={{ display: "flex", justifyContent: "center", height: "100%" }}>
+                <ImageViewDialog image={img} albumId={albumId} />
+              </Box>
+              // </Grid>
             ))}
           </Grid>
         </Box>

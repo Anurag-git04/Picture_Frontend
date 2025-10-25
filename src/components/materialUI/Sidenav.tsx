@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { styled, useTheme } from '@mui/material/styles';
 import type { Theme } from '@mui/material/styles';
-import { display, type CSSObject } from '@mui/system';
+import { type CSSObject } from '@mui/system';
 import Box from '@mui/material/Box';
 import MuiDrawer from '@mui/material/Drawer';
 import MuiAppBar from '@mui/material/AppBar';
